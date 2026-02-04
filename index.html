@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Ma Valentine 💘</title>
+  <title>Mon mien</title>
   <style>
     body {
       font-family: 'Arial', sans-serif;
@@ -22,7 +22,7 @@
       max-width: 350px;
     }
     h1 {
-      color: #ff4b5c;
+      color: #fdfdfd;
     }
     button {
       padding: 12px 20px;
@@ -33,7 +33,7 @@
       cursor: pointer;
     }
     #yes {
-      background: #ff4b5c;
+      background: #000000;
       color: white;
     }
     #no {
@@ -45,15 +45,14 @@
 <body>
 
 <div class="box">
-  <h1>💖 Une question très importante 💖</h1>
-  <p>Veux-tu être ma Valentine ?</p>
-  <button id="yes" onclick="alert('YESS 🥰💘')">Oui 💕</button>
-  <button id="no">Non 🙄</button>
+  <h1>Une question très importante</h1>
+  <p>Est ce que j'ai toujours raison ?</p>
+  <button id="yes" onclick="alert('YESS 🥰')">Oui</button>
+  <button id="no"> Bien sur que non 🙄</button>
 </div>
 
 <script>
   const noBtn = document.getElementById("no");
-
   noBtn.addEventListener("mouseover", () => {
     const x = Math.random() * (window.innerWidth - 100);
     const y = Math.random() * (window.innerHeight - 50);
